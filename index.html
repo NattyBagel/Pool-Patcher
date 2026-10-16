@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pool Patcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+  <row style="grid-template-columns: 20% 60% 20%;">
+    <panel class="side" id="selection">
+      <h3>Available Patches</h3>
+        <hr></hr>
+    </panel>
+    <panel class="center" id="display">
+      <pre>
+        <logo id="logo"></logo>
+        <version id="version"></version>
+        <author id="author"></author>
+      </pre>
+      <hr></hr>
+      <printBox id="printBox"></printbox>
+    </panel>
+    <panel class="side" id="history">
+      <h3>History</h3>
+      <hr></hr>
+    </panel>
+  </row>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="patchList.js"></script>
+<link rel="stylesheet" href="styles.css">
